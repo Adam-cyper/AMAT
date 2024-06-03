@@ -1,0 +1,85 @@
+.Ban-contianer{
+  background: #9e9e9e4d;
+  height: 35vh;
+
+  @media only screen and (max-width: 768px){
+    height: 40vh;
+  }
+
+
+    & .ban{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding: 1.5rem 1rem;
+        color: #fff;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.534)), url('../../public/Banner/sky-clouds-relief-sunny.jpg');
+        height: 15vh;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+
+        @media only screen and (max-width: 430px){
+            display: block;
+            height: 40vh;
+        }
+
+        & .batt {
+            h2{
+                font-size: 30px;
+            }
+
+            button{
+            padding: 0.5rem 1rem;
+            font-size: 20px; 
+            margin-left: 4rem;  
+            border: none;
+
+            @media only screen and (max-width: 430px){
+                margin:0 ;  
+                font-size: 14px; 
+            }
+        }
+    }
+    }
+    & .ban1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        padding: 0rem 2rem;
+        gap: 1.5rem;
+
+        @media only screen and (max-width: 430px){
+            height: 80%;
+        }
+    }
+   
+}
+.ban-cover{
+    display: flex;
+    width: 100%;
+
+    @media only screen and (max-width: 768px)
+    {
+        font-size: 13px;
+        display:none;
+
+       & .font-icon{
+           font-size: 20px;
+        }
+
+        @media only screen and (max-width: 430px){
+            font-size: 18px;
+        }
+    }
+
+}
+.line{
+    border-left: 1px solid rgb(24, 92, 121);
+    margin: 0 9px;
+    height: 70px;
+}
+.font-icon{
+    font-size: 3rem;
+    padding: 1rem .1rem;
+}
